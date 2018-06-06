@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lt/my_code_file/pcl_learning/filter_passthrough.cpp" "/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o"
+  "/home/sc/文档/codenote/pcl_learning/filter_passthrough.cpp" "/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DISABLE_OPENNI2"
   "DISABLE_PCAP"
   "DISABLE_PNG"
   "EIGEN_USE_NEW_STDVECTOR"
@@ -49,7 +50,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/pcl-1.7"
   "/usr/include/eigen3"
   "/usr/include/ni"
-  "/usr/include/openni2"
   "/usr/include/x86_64-linux-gnu/qt5"
   "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
   "/usr/include/x86_64-linux-gnu/qt5/QtGui"

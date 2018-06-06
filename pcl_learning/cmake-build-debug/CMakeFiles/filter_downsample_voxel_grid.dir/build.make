@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lt/my_code_file/pcl_learning
+CMAKE_SOURCE_DIR = /home/sc/文档/codenote/pcl_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lt/my_code_file/pcl_learning/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sc/文档/codenote/pcl_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/filter_downsample_voxel_grid.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/filter_downsample_voxel_grid.dir/flags.make
 
 CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.o: CMakeFiles/filter_downsample_voxel_grid.dir/flags.make
 CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.o: ../filter_downsample_voxel_grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.o -c /home/lt/my_code_file/pcl_learning/filter_downsample_voxel_grid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.o -c /home/sc/文档/codenote/pcl_learning/filter_downsample_voxel_grid.cpp
 
 CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lt/my_code_file/pcl_learning/filter_downsample_voxel_grid.cpp > CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc/文档/codenote/pcl_learning/filter_downsample_voxel_grid.cpp > CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.i
 
 CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lt/my_code_file/pcl_learning/filter_downsample_voxel_grid.cpp -o CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc/文档/codenote/pcl_learning/filter_downsample_voxel_grid.cpp -o CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.s
 
 CMakeFiles/filter_downsample_voxel_grid.dir/filter_downsample_voxel_grid.cpp.o.requires:
 
@@ -102,7 +102,6 @@ filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
 filter_downsample_voxel_grid: /usr/lib/libOpenNI.so
-filter_downsample_voxel_grid: /usr/lib/libOpenNI2.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libz.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libjpeg.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libpng.so
@@ -142,7 +141,6 @@ filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 filter_downsample_voxel_grid: /usr/lib/libOpenNI.so
-filter_downsample_voxel_grid: /usr/lib/libOpenNI2.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libvtkImagingStencil-6.2.so.6.2.0
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libz.so
@@ -341,7 +339,7 @@ filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-6.2.so
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libvtkmetaio-6.2.so.6.2.0
 filter_downsample_voxel_grid: /usr/lib/x86_64-linux-gnu/libz.so
 filter_downsample_voxel_grid: CMakeFiles/filter_downsample_voxel_grid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable filter_downsample_voxel_grid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable filter_downsample_voxel_grid"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filter_downsample_voxel_grid.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -358,6 +356,6 @@ CMakeFiles/filter_downsample_voxel_grid.dir/clean:
 .PHONY : CMakeFiles/filter_downsample_voxel_grid.dir/clean
 
 CMakeFiles/filter_downsample_voxel_grid.dir/depend:
-	cd /home/lt/my_code_file/pcl_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lt/my_code_file/pcl_learning /home/lt/my_code_file/pcl_learning /home/lt/my_code_file/pcl_learning/cmake-build-debug /home/lt/my_code_file/pcl_learning/cmake-build-debug /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/filter_downsample_voxel_grid.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sc/文档/codenote/pcl_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sc/文档/codenote/pcl_learning /home/sc/文档/codenote/pcl_learning /home/sc/文档/codenote/pcl_learning/cmake-build-debug /home/sc/文档/codenote/pcl_learning/cmake-build-debug /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/filter_downsample_voxel_grid.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/filter_downsample_voxel_grid.dir/depend
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lt/my_code_file/pcl_learning
+CMAKE_SOURCE_DIR = /home/sc/文档/codenote/pcl_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lt/my_code_file/pcl_learning/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sc/文档/codenote/pcl_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/registration_ICP.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/registration_ICP.dir/flags.make
 
 CMakeFiles/registration_ICP.dir/registration_ICP.cpp.o: CMakeFiles/registration_ICP.dir/flags.make
 CMakeFiles/registration_ICP.dir/registration_ICP.cpp.o: ../registration_ICP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/registration_ICP.dir/registration_ICP.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/registration_ICP.dir/registration_ICP.cpp.o -c /home/lt/my_code_file/pcl_learning/registration_ICP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/registration_ICP.dir/registration_ICP.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/registration_ICP.dir/registration_ICP.cpp.o -c /home/sc/文档/codenote/pcl_learning/registration_ICP.cpp
 
 CMakeFiles/registration_ICP.dir/registration_ICP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/registration_ICP.dir/registration_ICP.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lt/my_code_file/pcl_learning/registration_ICP.cpp > CMakeFiles/registration_ICP.dir/registration_ICP.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc/文档/codenote/pcl_learning/registration_ICP.cpp > CMakeFiles/registration_ICP.dir/registration_ICP.cpp.i
 
 CMakeFiles/registration_ICP.dir/registration_ICP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/registration_ICP.dir/registration_ICP.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lt/my_code_file/pcl_learning/registration_ICP.cpp -o CMakeFiles/registration_ICP.dir/registration_ICP.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc/文档/codenote/pcl_learning/registration_ICP.cpp -o CMakeFiles/registration_ICP.dir/registration_ICP.cpp.s
 
 CMakeFiles/registration_ICP.dir/registration_ICP.cpp.o.requires:
 
@@ -102,7 +102,6 @@ registration_ICP: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
 registration_ICP: /usr/lib/libOpenNI.so
-registration_ICP: /usr/lib/libOpenNI2.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libz.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libjpeg.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libpng.so
@@ -142,7 +141,6 @@ registration_ICP: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 registration_ICP: /usr/lib/libOpenNI.so
-registration_ICP: /usr/lib/libOpenNI2.so
 registration_ICP: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
 registration_ICP: /usr/lib/x86_64-linux-gnu/libvtkImagingStencil-6.2.so.6.2.0
 registration_ICP: /usr/lib/x86_64-linux-gnu/libz.so
@@ -341,7 +339,7 @@ registration_ICP: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-6.2.so.6.2.0
 registration_ICP: /usr/lib/x86_64-linux-gnu/libvtkmetaio-6.2.so.6.2.0
 registration_ICP: /usr/lib/x86_64-linux-gnu/libz.so
 registration_ICP: CMakeFiles/registration_ICP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable registration_ICP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable registration_ICP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/registration_ICP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -358,6 +356,6 @@ CMakeFiles/registration_ICP.dir/clean:
 .PHONY : CMakeFiles/registration_ICP.dir/clean
 
 CMakeFiles/registration_ICP.dir/depend:
-	cd /home/lt/my_code_file/pcl_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lt/my_code_file/pcl_learning /home/lt/my_code_file/pcl_learning /home/lt/my_code_file/pcl_learning/cmake-build-debug /home/lt/my_code_file/pcl_learning/cmake-build-debug /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/registration_ICP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sc/文档/codenote/pcl_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sc/文档/codenote/pcl_learning /home/sc/文档/codenote/pcl_learning /home/sc/文档/codenote/pcl_learning/cmake-build-debug /home/sc/文档/codenote/pcl_learning/cmake-build-debug /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/registration_ICP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/registration_ICP.dir/depend
 

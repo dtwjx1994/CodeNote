@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4e93/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c4e93.dir/build.make CMakeFiles/cmTC_c4e93.dir/build
-make[1]: Entering directory '/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c4e93.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c4e93.dir/CheckSymbolExists.c.o   -c /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_c4e93
-/home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4e93.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c4e93.dir/CheckSymbolExists.c.o  -o cmTC_c4e93 
-CMakeFiles/cmTC_c4e93.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:"/usr/bin/make" "cmTC_5f1a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f1a9.dir/build.make CMakeFiles/cmTC_5f1a9.dir/build
+make[1]: Entering directory '/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f1a9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5f1a9.dir/CheckSymbolExists.c.o   -c /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5f1a9
+/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f1a9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_5f1a9.dir/CheckSymbolExists.c.o  -o cmTC_5f1a9 
+CMakeFiles/cmTC_5f1a9.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c4e93.dir/build.make:97: recipe for target 'cmTC_c4e93' failed
-make[1]: *** [cmTC_c4e93] Error 1
-make[1]: Leaving directory '/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c4e93/fast' failed
-make: *** [cmTC_c4e93/fast] Error 2
+CMakeFiles/cmTC_5f1a9.dir/build.make:97: recipe for target 'cmTC_5f1a9' failed
+make[1]: *** [cmTC_5f1a9] Error 1
+make[1]: Leaving directory '/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f1a9/fast' failed
+make: *** [cmTC_5f1a9/fast] Error 2
 
-File /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_66696/fast"
-/usr/bin/make -f CMakeFiles/cmTC_66696.dir/build.make CMakeFiles/cmTC_66696.dir/build
-make[1]: Entering directory '/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_66696.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_66696.dir/CheckFunctionExists.c.o   -c /home/lt/Software/clion-2018.1.2/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_66696
-/home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66696.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_66696.dir/CheckFunctionExists.c.o  -o cmTC_66696 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_e6770/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6770.dir/build.make CMakeFiles/cmTC_e6770.dir/build
+make[1]: Entering directory '/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6770.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e6770.dir/CheckFunctionExists.c.o   -c /home/sc/Software/clion-2018.1.2/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e6770
+/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6770.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e6770.dir/CheckFunctionExists.c.o  -o cmTC_e6770 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_66696.dir/build.make:97: recipe for target 'cmTC_66696' failed
-make[1]: *** [cmTC_66696] Error 1
-make[1]: Leaving directory '/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_66696/fast' failed
-make: *** [cmTC_66696/fast] Error 2
+CMakeFiles/cmTC_e6770.dir/build.make:97: recipe for target 'cmTC_e6770' failed
+make[1]: *** [cmTC_e6770] Error 1
+make[1]: Leaving directory '/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e6770/fast' failed
+make: *** [cmTC_e6770/fast] Error 2
 
 

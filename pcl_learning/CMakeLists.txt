@@ -39,3 +39,5 @@ add_executable(registration_ICP registration_ICP.cpp)
 target_link_libraries(registration_ICP ${PCL_LIBRARIES})
 
 add_executable(boost_format boost_format.cpp)
+add_executable(joint_depthMap joint_depthMap.cpp)
+target_link_libraries(joint_depthMap ${PCL_LIBRARIES} ${OpenCV_LIBS})

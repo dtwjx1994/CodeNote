@@ -1,4 +1,4 @@
-/home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lt/my_code_file/pcl_learning
+/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sc/文档/codenote/pcl_learning
 -- Boost version: 1.58.0
 -- Found the following Boost libraries:
 --   system
@@ -10,6 +10,10 @@
 --   chrono
 --   atomic
 --   regex
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing: OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+** WARNING ** io features related to openni2 will be disabled
 ** WARNING ** io features related to pcap will be disabled
 ** WARNING ** io features related to png will be disabled
 -- The imported target "vtkRenderingPythonTkWidgets" references the file
@@ -30,6 +34,10 @@ but this file does not exist.  Possible reasons include:
    "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
 but not all the files it references.
 
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing: OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
+** WARNING ** visualization features related to openni2 will be disabled
 -- looking for PCL_COMMON
 -- looking for PCL_OCTREE
 -- looking for PCL_IO
@@ -41,4 +49,4 @@ but not all the files it references.
 -- looking for PCL_FILTERS
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/lt/my_code_file/pcl_learning/cmake-build-debug
+-- Build files have been written to: /home/sc/文档/codenote/pcl_learning/cmake-build-debug

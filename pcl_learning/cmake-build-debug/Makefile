@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lt/my_code_file/pcl_learning
+CMAKE_SOURCE_DIR = /home/sc/文档/codenote/pcl_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lt/my_code_file/pcl_learning/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sc/文档/codenote/pcl_learning/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/lt/my_code_file/pcl_learning/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -227,6 +227,19 @@ boost_format/fast:
 	$(MAKE) -f CMakeFiles/boost_format.dir/build.make CMakeFiles/boost_format.dir/build
 .PHONY : boost_format/fast
 
+#=============================================================================
+# Target rules for targets named joint_depthMap
+
+# Build rule for target.
+joint_depthMap: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 joint_depthMap
+.PHONY : joint_depthMap
+
+# fast build rule for target.
+joint_depthMap/fast:
+	$(MAKE) -f CMakeFiles/joint_depthMap.dir/build.make CMakeFiles/joint_depthMap.dir/build
+.PHONY : joint_depthMap/fast
+
 boost_format.o: boost_format.cpp.o
 
 .PHONY : boost_format.o
@@ -362,6 +375,33 @@ filter_static_outliers.cpp.s:
 	$(MAKE) -f CMakeFiles/filter_static_outliers.dir/build.make CMakeFiles/filter_static_outliers.dir/filter_static_outliers.cpp.s
 .PHONY : filter_static_outliers.cpp.s
 
+joint_depthMap.o: joint_depthMap.cpp.o
+
+.PHONY : joint_depthMap.o
+
+# target to build an object file
+joint_depthMap.cpp.o:
+	$(MAKE) -f CMakeFiles/joint_depthMap.dir/build.make CMakeFiles/joint_depthMap.dir/joint_depthMap.cpp.o
+.PHONY : joint_depthMap.cpp.o
+
+joint_depthMap.i: joint_depthMap.cpp.i
+
+.PHONY : joint_depthMap.i
+
+# target to preprocess a source file
+joint_depthMap.cpp.i:
+	$(MAKE) -f CMakeFiles/joint_depthMap.dir/build.make CMakeFiles/joint_depthMap.dir/joint_depthMap.cpp.i
+.PHONY : joint_depthMap.cpp.i
+
+joint_depthMap.s: joint_depthMap.cpp.s
+
+.PHONY : joint_depthMap.s
+
+# target to generate assembly for a file
+joint_depthMap.cpp.s:
+	$(MAKE) -f CMakeFiles/joint_depthMap.dir/build.make CMakeFiles/joint_depthMap.dir/joint_depthMap.cpp.s
+.PHONY : joint_depthMap.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -477,6 +517,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... filter_passthrough"
 	@echo "... octo_mapping"
 	@echo "... filter_downsample_voxel_grid"
@@ -484,9 +525,9 @@ help:
 	@echo "... cloud_viewer"
 	@echo "... filter_static_outliers"
 	@echo "... pcl2octomap"
-	@echo "... edit_cache"
 	@echo "... pcl_learning"
 	@echo "... boost_format"
+	@echo "... joint_depthMap"
 	@echo "... boost_format.o"
 	@echo "... boost_format.i"
 	@echo "... boost_format.s"
@@ -502,6 +543,9 @@ help:
 	@echo "... filter_static_outliers.o"
 	@echo "... filter_static_outliers.i"
 	@echo "... filter_static_outliers.s"
+	@echo "... joint_depthMap.o"
+	@echo "... joint_depthMap.i"
+	@echo "... joint_depthMap.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

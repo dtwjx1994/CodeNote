@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lt/my_code_file/pcl_learning/registration_ICP.cpp
+/home/sc/文档/codenote/pcl_learning/registration_ICP.cpp
 iostream
 -
 pcl/io/pcd_io.h

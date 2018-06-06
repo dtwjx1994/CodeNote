@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lt/my_code_file/pcl_learning/boost_format.cpp
+/home/sc/文档/codenote/pcl_learning/boost_format.cpp
 iostream
 -
 boost/format.hpp

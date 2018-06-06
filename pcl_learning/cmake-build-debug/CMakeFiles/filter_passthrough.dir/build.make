@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lt/my_code_file/pcl_learning
+CMAKE_SOURCE_DIR = /home/sc/文档/codenote/pcl_learning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lt/my_code_file/pcl_learning/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sc/文档/codenote/pcl_learning/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/filter_passthrough.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/filter_passthrough.dir/flags.make
 
 CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o: CMakeFiles/filter_passthrough.dir/flags.make
 CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o: ../filter_passthrough.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o -c /home/lt/my_code_file/pcl_learning/filter_passthrough.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o -c /home/sc/文档/codenote/pcl_learning/filter_passthrough.cpp
 
 CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lt/my_code_file/pcl_learning/filter_passthrough.cpp > CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sc/文档/codenote/pcl_learning/filter_passthrough.cpp > CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.i
 
 CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lt/my_code_file/pcl_learning/filter_passthrough.cpp -o CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sc/文档/codenote/pcl_learning/filter_passthrough.cpp -o CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.s
 
 CMakeFiles/filter_passthrough.dir/filter_passthrough.cpp.o.requires:
 
@@ -102,7 +102,6 @@ filter_passthrough: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
 filter_passthrough: /usr/lib/libOpenNI.so
-filter_passthrough: /usr/lib/libOpenNI2.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libz.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libjpeg.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libpng.so
@@ -142,7 +141,6 @@ filter_passthrough: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 filter_passthrough: /usr/lib/libOpenNI.so
-filter_passthrough: /usr/lib/libOpenNI2.so
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libvtkImagingStencil-6.2.so.6.2.0
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libz.so
@@ -341,7 +339,7 @@ filter_passthrough: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-6.2.so.6.2.0
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libvtkmetaio-6.2.so.6.2.0
 filter_passthrough: /usr/lib/x86_64-linux-gnu/libz.so
 filter_passthrough: CMakeFiles/filter_passthrough.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable filter_passthrough"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable filter_passthrough"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filter_passthrough.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -358,6 +356,6 @@ CMakeFiles/filter_passthrough.dir/clean:
 .PHONY : CMakeFiles/filter_passthrough.dir/clean
 
 CMakeFiles/filter_passthrough.dir/depend:
-	cd /home/lt/my_code_file/pcl_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lt/my_code_file/pcl_learning /home/lt/my_code_file/pcl_learning /home/lt/my_code_file/pcl_learning/cmake-build-debug /home/lt/my_code_file/pcl_learning/cmake-build-debug /home/lt/my_code_file/pcl_learning/cmake-build-debug/CMakeFiles/filter_passthrough.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sc/文档/codenote/pcl_learning/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sc/文档/codenote/pcl_learning /home/sc/文档/codenote/pcl_learning /home/sc/文档/codenote/pcl_learning/cmake-build-debug /home/sc/文档/codenote/pcl_learning/cmake-build-debug /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/filter_passthrough.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/filter_passthrough.dir/depend
 
