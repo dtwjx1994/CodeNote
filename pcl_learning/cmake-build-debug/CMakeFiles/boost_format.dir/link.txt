@@ -1,0 +1,1 @@
+/usr/bin/c++    -g    CMakeFiles/boost_format.dir/boost_format.cpp.o  -o boost_format 
