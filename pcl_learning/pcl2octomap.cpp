@@ -9,7 +9,7 @@
 #include <octomap/ColorOcTree.h>
 using namespace std ;
 int main(int argc,char ** argv){
-    string input_file="sample.pcd";
+    string input_file="map.pcd";
     string output_file="table.ot";
 
     pcl::PointCloud<pcl::PointXYZRGBA> cloud;

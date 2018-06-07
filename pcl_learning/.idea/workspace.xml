@@ -2,16 +2,16 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="pcl_learning" targetName="pcl2octomap" />
-      <config projectName="pcl_learning" targetName="joint_depthMap" />
-      <config projectName="pcl_learning" targetName="octo_mapping" />
-      <config projectName="pcl_learning" targetName="filter_passthrough" />
-      <config projectName="pcl_learning" targetName="cloud_viewer" />
-      <config projectName="pcl_learning" targetName="boost_format" />
-      <config projectName="pcl_learning" targetName="pcl_learning" />
-      <config projectName="pcl_learning" targetName="registration_ICP" />
-      <config projectName="pcl_learning" targetName="filter_downsample_voxel_grid" />
       <config projectName="pcl_learning" targetName="filter_static_outliers" />
+      <config projectName="pcl_learning" targetName="boost_format" />
+      <config projectName="pcl_learning" targetName="octo_mapping" />
+      <config projectName="pcl_learning" targetName="registration_ICP" />
+      <config projectName="pcl_learning" targetName="pcl_learning" />
+      <config projectName="pcl_learning" targetName="joint_depthMap" />
+      <config projectName="pcl_learning" targetName="filter_passthrough" />
+      <config projectName="pcl_learning" targetName="filter_downsample_voxel_grid" />
+      <config projectName="pcl_learning" targetName="pcl2octomap" />
+      <config projectName="pcl_learning" targetName="cloud_viewer" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -35,8 +35,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="42" column="69" lean-forward="true" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+            <state relative-caret-position="630">
+              <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,8 @@
       <file leaf-file-name="filter_passthrough.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filter_passthrough.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="360">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
                 <element signature="e#35#54#0" expanded="true" />
               </folding>
@@ -93,11 +93,47 @@
       <file leaf-file-name="joint_depthMap.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/joint_depthMap.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="403">
+              <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
               <folding>
-                <element signature="e#114#133#0" expanded="true" />
-                <element signature="e#175#207#0" expanded="true" />
+                <element signature="e#118#137#0" expanded="true" />
+                <element signature="e#179#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="octo_mapping.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/octo_mapping.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+              <folding>
+                <element signature="e#35#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pcl2octomap.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pcl2octomap.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#35#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter_downsample_voxel_grid.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/filter_downsample_voxel_grid.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#35#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,12 +160,12 @@
         <option value="$PROJECT_DIR$/cloud_viewer.cpp" />
         <option value="$PROJECT_DIR$/filter_static_outliers.cpp" />
         <option value="$PROJECT_DIR$/filter_downsample_voxel_grid.cpp" />
-        <option value="$PROJECT_DIR$/pcl2octomap.cpp" />
         <option value="$PROJECT_DIR$/octo_mapping.cpp" />
         <option value="$PROJECT_DIR$/registration_ICP.cpp" />
         <option value="$PROJECT_DIR$/incremental_ICP.cpp" />
         <option value="$PROJECT_DIR$/boost_format.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/pcl2octomap.cpp" />
         <option value="$PROJECT_DIR$/joint_depthMap.cpp" />
       </list>
     </option>
@@ -154,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.boost_format">
+  <component name="RunManager" selected="Application.pcl2octomap">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="boost_format" EXPLICIT_BUILD_TARGET_NAME="all" />
     <configuration name="boost_format" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="boost_format" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="boost_format" />
     <configuration name="cloud_viewer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="cloud_viewer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
@@ -200,7 +236,7 @@
     <configuration name="filter_static_outliers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="filter_static_outliers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
     <configuration name="joint_depthMap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="joint_depthMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
     <configuration name="octo_mapping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="octo_mapping" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
-    <configuration name="pcl2octomap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="pcl2octomap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
+    <configuration name="pcl2octomap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="pcl2octomap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="pcl2octomap" />
     <configuration name="pcl_learning" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="pcl_learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
     <configuration name="registration_ICP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="registration_ICP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
     <list>
@@ -236,52 +272,54 @@
       <workItem from="1528252884418" duration="10751000" />
       <workItem from="1528276978340" duration="3190000" />
       <workItem from="1528289176341" duration="3252000" />
+      <workItem from="1528330861321" duration="8905000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44021000" />
+    <option name="totallyTimeSpent" value="52926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="24" width="960" height="1056" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18958333" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.33571428" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.33508402" />
       <window_info anchor="bottom" id="CMake" order="4" weight="0.3275862" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.30462185" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.30462185" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.45875" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="5" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="CMake" order="4" weight="0.32902297" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" weight="0.20643087" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.28304598" />
-      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.36206895" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="CMake" order="4" weight="0.32902297" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.36206895" />
       <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -626,26 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter_downsample_voxel_grid.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#35#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/octo_mapping.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-          <folding>
-            <element signature="e#35#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/boost/smart_ptr/shared_ptr.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -653,30 +671,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pcl2octomap.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#35#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filter_static_outliers.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter_passthrough.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-          <folding>
-            <element signature="e#35#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -712,9 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
           <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="e#35#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,6 +717,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter_downsample_voxel_grid.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -735,20 +747,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/octo_mapping.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="42" column="69" lean-forward="true" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
+        <state relative-caret-position="739">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+          <folding>
+            <element signature="e#35#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filter_passthrough.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pcl2octomap.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#35#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/joint_depthMap.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="403">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
           <folding>
-            <element signature="e#114#133#0" expanded="true" />
-            <element signature="e#175#207#0" expanded="true" />
+            <element signature="e#118#137#0" expanded="true" />
+            <element signature="e#179#211#0" expanded="true" />
           </folding>
         </state>
       </provider>

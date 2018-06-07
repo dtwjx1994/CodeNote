@@ -2,7 +2,7 @@
 // Created by sc on 18-6-6.
 //
 
-//  https://github.com/gaoxiang12/slambook/blob/master/ch5/joinMap/joinMap.cpp
+// 引用自： https://github.com/gaoxiang12/slambook/blob/master/ch5/joinMap/joinMap.cpp
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -14,8 +14,11 @@ using namespace std;
 
 #include <boost/format.hpp>
 #include <pcl/point_types.h>
+#include <pcl/point_cloud.h>
 #include <pcl/visualization/pcl_visualizer.h>
-
+#include <pcl/io/pcd_io.h>
+#include <pcl/filters/voxel_grid.h>
+#include <pcl/filters/statistical_outlier_removal.h>
 int main(int argc,char **argv){
     vector<cv::Mat>colorImgs,depthImgs;
     vector<Eigen::Isometry3d,Eigen::aligned_allocator<Eigen::Isometry3d>>poses;
@@ -42,11 +45,57 @@ int main(int argc,char **argv){
     double fx=518.0;
     double fy=519.0;
 
+
     double depthScale=1000.0;
 
     cout<<"拼接"<<endl;
     typedef pcl::PointXYZRGB PointT;
     typedef pcl::PointCloud<PointT> PointCloud;
 
+    PointCloud::Ptr pointcloud(new PointCloud);
+    for (int i = 0; i < 5; ++i) {
+        cout<<boost::format("正在转换第%1%张\n")%i;
+        cv::Mat color=colorImgs[i];
+        cv::Mat depth=depthImgs[i];
+        Eigen::Isometry3d T=poses[i];
+        for (int v = 0; v < color.rows; ++v) {
+            for (int u = 0; u < color.cols; ++u) {
+                unsigned int d  =depth.ptr<unsigned short >(v)[u];
+                if(d==0){
+                    continue;
+                }
+                Eigen::Vector3d point;
+                point[2]=double(d)/depthScale;
+                point[0]=(u-cx)*point[2]/fx;
+                point[1]=(v-cy)*point[2]/fy;
+                Eigen::Vector3d pointWorld=T*point;
+                PointT p;
+                p.x=pointWorld[0];p.y=pointWorld[1];p.z=pointWorld[2];
+                p.b=color.data[v*color.step+u*color.channels()];
+                p.g=color.data[v*color.step+u*color.channels()+1];
+                p.r=color.data[v*color.step+u*color.channels()+2];
+                pointcloud->points.push_back(p);
+            }
+        }
+    }
+    pointcloud->is_dense=false;
+    cout<<boost::format("点云共有%1%个点")%pointcloud->size();
+    pcl::PCLPointCloud2::Ptr ptr(new pcl::PCLPointCloud2);
+    pcl::toPCLPointCloud2(*pointcloud,*ptr);
+
+    pcl::VoxelGrid<pcl::PCLPointCloud2> voxelGrid;
+    voxelGrid.setLeafSize(0.05f,0.05f,0.05f);
+    voxelGrid.setInputCloud(ptr);
+    voxelGrid.filter(*ptr);
+
+    pcl::fromPCLPointCloud2(*ptr,*pointcloud);
+
+    pcl::StatisticalOutlierRemoval<PointT> sor;
+    sor.setInputCloud(pointcloud);
+    sor.setMeanK(50);
+    sor.setStddevMulThresh(1.0);
+    sor.filter(*pointcloud);
+    pcl::io::savePCDFileBinary("map.pcd",*pointcloud);
+    return 0;
 
 }
