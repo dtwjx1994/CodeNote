@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="dynamic_turtle" targetName="std_msgs_generate_messages_cpp" />
+      <config projectName="dynamic_turtle" targetName="clean_test_results" />
+      <config projectName="dynamic_turtle" targetName="roscpp_generate_messages_lisp" />
+      <config projectName="dynamic_turtle" targetName="doxygen" />
+      <config projectName="dynamic_turtle" targetName="dynamic_reconfigure_generate_messages_cpp" />
+      <config projectName="dynamic_turtle" targetName="gmock_main" />
+      <config projectName="dynamic_turtle" targetName="std_msgs_generate_messages_nodejs" />
+      <config projectName="dynamic_turtle" targetName="dynamic_reconfigure_gencfg" />
+      <config projectName="dynamic_turtle" targetName="rosservercall" />
+      <config projectName="dynamic_turtle" targetName="dynamic_reconfigure_generate_messages_py" />
+      <config projectName="dynamic_turtle" targetName="rosgraph_msgs_generate_messages_eus" />
+      <config projectName="dynamic_turtle" targetName="tests" />
+      <config projectName="dynamic_turtle" targetName="download_extra_data" />
+      <config projectName="dynamic_turtle" targetName="run_tests" />
+      <config projectName="dynamic_turtle" targetName="rosgraph_msgs_generate_messages_nodejs" />
+      <config projectName="dynamic_turtle" targetName="roscpp_generate_messages_nodejs" />
+      <config projectName="dynamic_turtle" targetName="gtest_main" />
+      <config projectName="dynamic_turtle" targetName="std_msgs_generate_messages_py" />
+      <config projectName="dynamic_turtle" targetName="roscpp_generate_messages_eus" />
+      <config projectName="dynamic_turtle" targetName="std_msgs_generate_messages_eus" />
+      <config projectName="dynamic_turtle" targetName="std_msgs_generate_messages_lisp" />
+      <config projectName="dynamic_turtle" targetName="dynamic_reconfigure_generate_messages_eus" />
+      <config projectName="dynamic_turtle" targetName="rosgraph_msgs_generate_messages_cpp" />
+      <config projectName="dynamic_turtle" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="dynamic_turtle" targetName="rosserver" />
+      <config projectName="dynamic_turtle" targetName="dynamic_reconfigure_generate_messages_nodejs" />
+      <config projectName="dynamic_turtle" targetName="gmock" />
+      <config projectName="dynamic_turtle" targetName="roscpp_generate_messages_py" />
+      <config projectName="dynamic_turtle" targetName="rosgraph_msgs_generate_messages_py" />
+      <config projectName="dynamic_turtle" targetName="dynamic_reconfigure_generate_messages_lisp" />
+      <config projectName="dynamic_turtle" targetName="roscpp_generate_messages_cpp" />
+      <config projectName="dynamic_turtle" targetName="gtest" />
+      <config projectName="dynamic_turtle" targetName="dynamic_turtle_gencfg" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c13fefc-8a28-43a3-9655-8037d2cb9a31" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2310">
+              <caret line="154" column="35" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rosservice_call.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rosservice_call.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service_client.h" pinned="false" current-in-tab="false">
+        <entry file="file:///opt/ros/kinetic/include/ros/service_client.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rosserver.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rosserver.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#35#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/rosserver.cpp" />
+        <option value="$PROJECT_DIR$/src/rosservice_call.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="880" />
+    <option name="y" value="24" />
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dynamic_turtle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_turtle" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="dynamic_turtle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_turtle" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dynamic_turtle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dynamic_turtle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dynamic_turtle" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="dynamic_turtle" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.rosservercall">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="clean_test_results" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="clean_test_results" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="download_extra_data" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="download_extra_data" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="doxygen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="doxygen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="dynamic_reconfigure_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="dynamic_reconfigure_gencfg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="dynamic_reconfigure_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="dynamic_reconfigure_generate_messages_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="dynamic_reconfigure_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="dynamic_reconfigure_generate_messages_eus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="dynamic_reconfigure_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="dynamic_reconfigure_generate_messages_lisp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="dynamic_reconfigure_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="dynamic_reconfigure_generate_messages_nodejs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="dynamic_reconfigure_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="dynamic_reconfigure_generate_messages_py" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="dynamic_turtle_gencfg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="dynamic_turtle_gencfg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="gmock" CONFIG_NAME="Debug" />
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="gmock_main" CONFIG_NAME="Debug" />
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="gtest" CONFIG_NAME="Debug" />
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="gtest_main" CONFIG_NAME="Debug" />
+    <configuration name="roscpp_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="roscpp_generate_messages_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="roscpp_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="roscpp_generate_messages_eus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="roscpp_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="roscpp_generate_messages_lisp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="roscpp_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="roscpp_generate_messages_nodejs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="roscpp_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="roscpp_generate_messages_py" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="rosgraph_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="rosgraph_msgs_generate_messages_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="rosgraph_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="rosgraph_msgs_generate_messages_eus" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="rosgraph_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="rosgraph_msgs_generate_messages_lisp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="rosgraph_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="rosgraph_msgs_generate_messages_nodejs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="rosgraph_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="rosgraph_msgs_generate_messages_py" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="rosserver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="rosserver" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosserver" />
+    <configuration name="rosservercall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="rosservercall" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dynamic_turtle" RUN_TARGET_NAME="rosservercall" />
+    <configuration name="run_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="run_tests" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="std_msgs_generate_messages_cpp" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_eus" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="std_msgs_generate_messages_eus" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_lisp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="std_msgs_generate_messages_lisp" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_nodejs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="std_msgs_generate_messages_nodejs" CONFIG_NAME="Debug" />
+    <configuration name="std_msgs_generate_messages_py" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="std_msgs_generate_messages_py" CONFIG_NAME="Debug" />
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dynamic_turtle" TARGET_NAME="tests" CONFIG_NAME="Debug" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.clean_test_results" />
+      <item itemvalue="Application.download_extra_data" />
+      <item itemvalue="Application.doxygen" />
+      <item itemvalue="Application.dynamic_reconfigure_gencfg" />
+      <item itemvalue="Application.dynamic_reconfigure_generate_messages_cpp" />
+      <item itemvalue="Application.dynamic_reconfigure_generate_messages_eus" />
+      <item itemvalue="Application.dynamic_reconfigure_generate_messages_lisp" />
+      <item itemvalue="Application.dynamic_reconfigure_generate_messages_nodejs" />
+      <item itemvalue="Application.dynamic_reconfigure_generate_messages_py" />
+      <item itemvalue="Application.dynamic_turtle_gencfg" />
+      <item itemvalue="Application.roscpp_generate_messages_cpp" />
+      <item itemvalue="Application.roscpp_generate_messages_eus" />
+      <item itemvalue="Application.roscpp_generate_messages_lisp" />
+      <item itemvalue="Application.roscpp_generate_messages_nodejs" />
+      <item itemvalue="Application.roscpp_generate_messages_py" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.rosgraph_msgs_generate_messages_py" />
+      <item itemvalue="Application.rosserver" />
+      <item itemvalue="Application.rosservercall" />
+      <item itemvalue="Application.run_tests" />
+      <item itemvalue="Application.std_msgs_generate_messages_cpp" />
+      <item itemvalue="Application.std_msgs_generate_messages_eus" />
+      <item itemvalue="Application.std_msgs_generate_messages_lisp" />
+      <item itemvalue="Application.std_msgs_generate_messages_nodejs" />
+      <item itemvalue="Application.std_msgs_generate_messages_py" />
+      <item itemvalue="Application.tests" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c13fefc-8a28-43a3-9655-8037d2cb9a31" name="Default" comment="" />
+      <created>1528350515970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528350515970</updated>
+      <workItem from="1528350517356" duration="3398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3398000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="880" y="24" width="960" height="1056" extended-state="4" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32983193" />
+      <window_info anchor="bottom" id="CMake" order="4" weight="0.32983193" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32983193" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="154" column="35" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/kinetic/include/ros/service_client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="80" column="7" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rosserver.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#35#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rosservice_call.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

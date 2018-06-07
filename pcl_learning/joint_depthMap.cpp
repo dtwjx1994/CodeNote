@@ -97,5 +97,4 @@ int main(int argc,char **argv){
     sor.filter(*pointcloud);
     pcl::io::savePCDFileBinary("map.pcd",*pointcloud);
     return 0;
-
 }

@@ -148,7 +148,11 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+add_executable(rosserver src/rosserver.cpp)
+target_link_libraries(rosserver ${catkin_LIBRARIES})
 
+add_executable(rosservercall src/rosservice_call.cpp)
+target_link_libraries(rosservercall ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############

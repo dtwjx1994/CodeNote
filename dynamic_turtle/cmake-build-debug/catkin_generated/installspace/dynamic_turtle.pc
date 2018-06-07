@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: dynamic_turtle
+Description: Description of dynamic_turtle
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: 

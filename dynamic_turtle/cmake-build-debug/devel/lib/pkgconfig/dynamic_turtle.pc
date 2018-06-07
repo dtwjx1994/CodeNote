@@ -1,0 +1,8 @@
+prefix=/home/sc/文档/codenote/dynamic_turtle/cmake-build-debug/devel
+
+Name: dynamic_turtle
+Description: Description of dynamic_turtle
+Version: 0.0.0
+Cflags: -I/home/sc/文档/codenote/dynamic_turtle/cmake-build-debug/devel/include
+Libs: -L/home/sc/文档/codenote/dynamic_turtle/cmake-build-debug/devel/lib 
+Requires: 

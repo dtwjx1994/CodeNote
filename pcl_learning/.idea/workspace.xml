@@ -93,11 +93,10 @@
       <file leaf-file-name="joint_depthMap.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/joint_depthMap.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#118#137#0" expanded="true" />
-                <element signature="e#179#211#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,11 +178,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
-    <option name="y" value="24" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="805" />
+    <option name="y" value="251" />
     <option name="width" value="960" />
-    <option name="height" value="1056" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -228,17 +227,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.pcl2octomap">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="boost_format" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="boost_format" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="boost_format" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="boost_format" />
-    <configuration name="cloud_viewer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="cloud_viewer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
-    <configuration name="filter_downsample_voxel_grid" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="filter_downsample_voxel_grid" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
-    <configuration name="filter_passthrough" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="filter_passthrough" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
-    <configuration name="filter_static_outliers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="filter_static_outliers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="boost_format" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="boost_format" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
+    <configuration name="cloud_viewer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="cloud_viewer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
+    <configuration name="filter_downsample_voxel_grid" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="filter_downsample_voxel_grid" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
+    <configuration name="filter_passthrough" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="filter_passthrough" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
+    <configuration name="filter_static_outliers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="filter_static_outliers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
     <configuration name="joint_depthMap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="joint_depthMap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
-    <configuration name="octo_mapping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="octo_mapping" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
-    <configuration name="pcl2octomap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="pcl2octomap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="pcl2octomap" />
-    <configuration name="pcl_learning" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="pcl_learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
-    <configuration name="registration_ICP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="registration_ICP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="registration_ICP" />
+    <configuration name="octo_mapping" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="octo_mapping" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
+    <configuration name="pcl2octomap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="pcl2octomap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
+    <configuration name="pcl_learning" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="pcl_learning" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
+    <configuration name="registration_ICP" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="pcl_learning" TARGET_NAME="registration_ICP" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="pcl_learning" RUN_TARGET_NAME="joint_depthMap" />
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.boost_format" />
@@ -272,15 +271,15 @@
       <workItem from="1528252884418" duration="10751000" />
       <workItem from="1528276978340" duration="3190000" />
       <workItem from="1528289176341" duration="3252000" />
-      <workItem from="1528330861321" duration="8905000" />
+      <workItem from="1528330861321" duration="11105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52926000" />
+    <option name="totallyTimeSpent" value="55126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="24" width="960" height="1056" extended-state="4" />
+    <frame x="805" y="251" width="960" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18958333" />
@@ -289,7 +288,7 @@
       <window_info anchor="bottom" id="CMake" order="4" weight="0.3275862" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.30462185" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.30462185" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -779,11 +778,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/joint_depthMap.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#118#137#0" expanded="true" />
-            <element signature="e#179#211#0" expanded="true" />
           </folding>
         </state>
       </provider>

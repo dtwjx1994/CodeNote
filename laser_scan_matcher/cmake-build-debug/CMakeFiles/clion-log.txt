@@ -1,0 +1,37 @@
+/home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lt/下载/scan_tools-indigo/laser_scan_matcher
+-- Using CATKIN_DEVEL_PREFIX: /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.11
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- Could NOT find PCL_APPS (missing: PCL_APPS_LIBRARY) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug
