@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gmock")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

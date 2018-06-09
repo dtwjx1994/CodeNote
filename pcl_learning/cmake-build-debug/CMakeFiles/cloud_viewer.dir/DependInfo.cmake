@@ -19,6 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_WIDGETS_LIB"
+  "qh_QHpointer"
   "vtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"
   "vtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"
   "vtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"

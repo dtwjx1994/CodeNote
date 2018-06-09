@@ -1,10 +1,9 @@
 #include <laser_scan_matcher/laser_scan_matcher.h>
 #include <gsl/gsl_vector_double.h>
+#include <std_srvs/SetBool.h>
+#include <ros/ros.h>
 using  namespace std;
 
-void callback(sensor_msgs::LaserScan scan){
-
-}
 int main(int argc, char** argv)
 {
   ros::init(argc, argv, "LaserScanMatcher");
@@ -22,11 +21,7 @@ int main(int argc, char** argv)
     ros::spinOnce();
     ROS_INFO("as_1");
   }
-
   std::cout<<laser_scan_matcher.output_.x[0]<<"  y:"<<laser_scan_matcher.output_.x[1]<<"  "<<laser_scan_matcher.output_.x[2]<<std::endl;
-
-
-
   ros::Subscriber sub=nh.subscribe<sensor_msgs::LaserScan>("scan",100,callback);*/
   return 0;
 }

@@ -67,8 +67,8 @@ set(laser_scan_matcher_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(laser_scan_matcher_SOURCE_PREFIX /home/lt/下载/scan_tools-indigo/laser_scan_matcher)
-  set(laser_scan_matcher_DEVEL_PREFIX /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel)
+  set(laser_scan_matcher_SOURCE_PREFIX /home/sc/文档/codenote/laser_scan_matcher)
+  set(laser_scan_matcher_DEVEL_PREFIX /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/devel)
   set(laser_scan_matcher_INSTALL_PREFIX "")
   set(laser_scan_matcher_PREFIX ${laser_scan_matcher_DEVEL_PREFIX})
 else()

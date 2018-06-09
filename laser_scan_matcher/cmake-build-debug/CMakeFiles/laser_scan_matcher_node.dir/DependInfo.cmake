@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/src/laser_scan_matcher_node.cpp" "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/CMakeFiles/laser_scan_matcher_node.dir/src/laser_scan_matcher_node.cpp.o"
+  "/home/sc/文档/codenote/laser_scan_matcher/src/laser_scan_matcher_node.cpp" "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/CMakeFiles/laser_scan_matcher_node.dir/src/laser_scan_matcher_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "DISABLE_OPENNI2"
   "DISABLE_PCAP"
   "DISABLE_PNG"
   "ROSCONSOLE_BACKEND_LOG4CXX"
@@ -47,12 +48,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/pcl-1.7"
   "/usr/include/eigen3"
   "/usr/include/ni"
-  "/usr/include/openni2"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/CMakeFiles/laser_scan_matcher.dir/DependInfo.cmake"
+  "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/CMakeFiles/laser_scan_matcher.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

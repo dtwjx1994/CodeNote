@@ -1,4 +1,4 @@
-# Install script for directory: /home/lt/下载/scan_tools-indigo/laser_scan_matcher
+# Install script for directory: /home/sc/文档/codenote/laser_scan_matcher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -56,7 +56,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -68,7 +68,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -80,7 +80,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -92,7 +92,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -104,7 +104,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -116,22 +116,22 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/laser_scan_matcher.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/laser_scan_matcher.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laser_scan_matcher/cmake" TYPE FILE FILES
-    "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/laser_scan_matcherConfig.cmake"
-    "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/laser_scan_matcherConfig-version.cmake"
+    "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/laser_scan_matcherConfig.cmake"
+    "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/catkin_generated/installspace/laser_scan_matcherConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laser_scan_matcher" TYPE FILE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laser_scan_matcher" TYPE FILE FILES "/home/sc/文档/codenote/laser_scan_matcher/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -141,12 +141,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel/lib/liblaser_scan_matcher.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/devel/lib/liblaser_scan_matcher.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher.so"
-         OLD_RPATH "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/.:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
+         OLD_RPATH "/home/sc/文档/codenote/laser_scan_matcher/.:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher.so")
@@ -161,12 +161,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher_nodelet.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel/lib/liblaser_scan_matcher_nodelet.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/devel/lib/liblaser_scan_matcher_nodelet.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher_nodelet.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher_nodelet.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher_nodelet.so"
-         OLD_RPATH "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/.:/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
+         OLD_RPATH "/home/sc/文档/codenote/laser_scan_matcher/.:/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/devel/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblaser_scan_matcher_nodelet.so")
@@ -175,7 +175,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/laser_scan_matcher" TYPE DIRECTORY FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/include/laser_scan_matcher/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/laser_scan_matcher" TYPE DIRECTORY FILES "/home/sc/文档/codenote/laser_scan_matcher/include/laser_scan_matcher/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -185,12 +185,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/laser_scan_matcher/laser_scan_matcher_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/laser_scan_matcher" TYPE EXECUTABLE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel/lib/laser_scan_matcher/laser_scan_matcher_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/laser_scan_matcher" TYPE EXECUTABLE FILES "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/devel/lib/laser_scan_matcher/laser_scan_matcher_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/laser_scan_matcher/laser_scan_matcher_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/laser_scan_matcher/laser_scan_matcher_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/laser_scan_matcher/laser_scan_matcher_node"
-         OLD_RPATH "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/.:/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
+         OLD_RPATH "/home/sc/文档/codenote/laser_scan_matcher/.:/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/devel/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/laser_scan_matcher/laser_scan_matcher_node")
@@ -199,16 +199,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laser_scan_matcher" TYPE FILE FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/laser_scan_matcher_nodelet.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laser_scan_matcher" TYPE FILE FILES "/home/sc/文档/codenote/laser_scan_matcher/laser_scan_matcher_nodelet.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laser_scan_matcher" TYPE DIRECTORY FILES "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/laser_scan_matcher" TYPE DIRECTORY FILES "/home/sc/文档/codenote/laser_scan_matcher/demo")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/gtest/cmake_install.cmake")
+  include("/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/gtest/cmake_install.cmake")
 
 endif()
 
@@ -220,5 +220,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

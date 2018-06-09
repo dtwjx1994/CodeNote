@@ -60,13 +60,87 @@ CMAKE_SOURCE_DIR = /home/sc/文档/codenote/pcl_learning
 CMAKE_BINARY_DIR = /home/sc/文档/codenote/pcl_learning/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/extractIndicesFromPointCloud.dir
+
+# All Build rule for target.
+CMakeFiles/extractIndicesFromPointCloud.dir/all:
+	$(MAKE) -f CMakeFiles/extractIndicesFromPointCloud.dir/build.make CMakeFiles/extractIndicesFromPointCloud.dir/depend
+	$(MAKE) -f CMakeFiles/extractIndicesFromPointCloud.dir/build.make CMakeFiles/extractIndicesFromPointCloud.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target extractIndicesFromPointCloud"
+.PHONY : CMakeFiles/extractIndicesFromPointCloud.dir/all
+
+# Include target in all.
+all: CMakeFiles/extractIndicesFromPointCloud.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/extractIndicesFromPointCloud.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/extractIndicesFromPointCloud.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/extractIndicesFromPointCloud.dir/rule
+
+# Convenience name for target.
+extractIndicesFromPointCloud: CMakeFiles/extractIndicesFromPointCloud.dir/rule
+
+.PHONY : extractIndicesFromPointCloud
+
+# clean rule for target.
+CMakeFiles/extractIndicesFromPointCloud.dir/clean:
+	$(MAKE) -f CMakeFiles/extractIndicesFromPointCloud.dir/build.make CMakeFiles/extractIndicesFromPointCloud.dir/clean
+.PHONY : CMakeFiles/extractIndicesFromPointCloud.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/extractIndicesFromPointCloud.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PlanModelSegmentation.dir
+
+# All Build rule for target.
+CMakeFiles/PlanModelSegmentation.dir/all:
+	$(MAKE) -f CMakeFiles/PlanModelSegmentation.dir/build.make CMakeFiles/PlanModelSegmentation.dir/depend
+	$(MAKE) -f CMakeFiles/PlanModelSegmentation.dir/build.make CMakeFiles/PlanModelSegmentation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target PlanModelSegmentation"
+.PHONY : CMakeFiles/PlanModelSegmentation.dir/all
+
+# Include target in all.
+all: CMakeFiles/PlanModelSegmentation.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PlanModelSegmentation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PlanModelSegmentation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/PlanModelSegmentation.dir/rule
+
+# Convenience name for target.
+PlanModelSegmentation: CMakeFiles/PlanModelSegmentation.dir/rule
+
+.PHONY : PlanModelSegmentation
+
+# clean rule for target.
+CMakeFiles/PlanModelSegmentation.dir/clean:
+	$(MAKE) -f CMakeFiles/PlanModelSegmentation.dir/build.make CMakeFiles/PlanModelSegmentation.dir/clean
+.PHONY : CMakeFiles/PlanModelSegmentation.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/PlanModelSegmentation.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/filter_passthrough.dir
 
 # All Build rule for target.
 CMakeFiles/filter_passthrough.dir/all:
 	$(MAKE) -f CMakeFiles/filter_passthrough.dir/build.make CMakeFiles/filter_passthrough.dir/depend
 	$(MAKE) -f CMakeFiles/filter_passthrough.dir/build.make CMakeFiles/filter_passthrough.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target filter_passthrough"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target filter_passthrough"
 .PHONY : CMakeFiles/filter_passthrough.dir/all
 
 # Include target in all.
@@ -103,7 +177,7 @@ clean: CMakeFiles/filter_passthrough.dir/clean
 CMakeFiles/octo_mapping.dir/all:
 	$(MAKE) -f CMakeFiles/octo_mapping.dir/build.make CMakeFiles/octo_mapping.dir/depend
 	$(MAKE) -f CMakeFiles/octo_mapping.dir/build.make CMakeFiles/octo_mapping.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target octo_mapping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target octo_mapping"
 .PHONY : CMakeFiles/octo_mapping.dir/all
 
 # Include target in all.
@@ -140,7 +214,7 @@ clean: CMakeFiles/octo_mapping.dir/clean
 CMakeFiles/filter_downsample_voxel_grid.dir/all:
 	$(MAKE) -f CMakeFiles/filter_downsample_voxel_grid.dir/build.make CMakeFiles/filter_downsample_voxel_grid.dir/depend
 	$(MAKE) -f CMakeFiles/filter_downsample_voxel_grid.dir/build.make CMakeFiles/filter_downsample_voxel_grid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target filter_downsample_voxel_grid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target filter_downsample_voxel_grid"
 .PHONY : CMakeFiles/filter_downsample_voxel_grid.dir/all
 
 # Include target in all.
@@ -177,7 +251,7 @@ clean: CMakeFiles/filter_downsample_voxel_grid.dir/clean
 CMakeFiles/registration_ICP.dir/all:
 	$(MAKE) -f CMakeFiles/registration_ICP.dir/build.make CMakeFiles/registration_ICP.dir/depend
 	$(MAKE) -f CMakeFiles/registration_ICP.dir/build.make CMakeFiles/registration_ICP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target registration_ICP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target registration_ICP"
 .PHONY : CMakeFiles/registration_ICP.dir/all
 
 # Include target in all.
@@ -214,7 +288,7 @@ clean: CMakeFiles/registration_ICP.dir/clean
 CMakeFiles/cloud_viewer.dir/all:
 	$(MAKE) -f CMakeFiles/cloud_viewer.dir/build.make CMakeFiles/cloud_viewer.dir/depend
 	$(MAKE) -f CMakeFiles/cloud_viewer.dir/build.make CMakeFiles/cloud_viewer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target cloud_viewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target cloud_viewer"
 .PHONY : CMakeFiles/cloud_viewer.dir/all
 
 # Include target in all.
@@ -251,7 +325,7 @@ clean: CMakeFiles/cloud_viewer.dir/clean
 CMakeFiles/filter_static_outliers.dir/all:
 	$(MAKE) -f CMakeFiles/filter_static_outliers.dir/build.make CMakeFiles/filter_static_outliers.dir/depend
 	$(MAKE) -f CMakeFiles/filter_static_outliers.dir/build.make CMakeFiles/filter_static_outliers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target filter_static_outliers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target filter_static_outliers"
 .PHONY : CMakeFiles/filter_static_outliers.dir/all
 
 # Include target in all.
@@ -288,7 +362,7 @@ clean: CMakeFiles/filter_static_outliers.dir/clean
 CMakeFiles/pcl2octomap.dir/all:
 	$(MAKE) -f CMakeFiles/pcl2octomap.dir/build.make CMakeFiles/pcl2octomap.dir/depend
 	$(MAKE) -f CMakeFiles/pcl2octomap.dir/build.make CMakeFiles/pcl2octomap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target pcl2octomap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target pcl2octomap"
 .PHONY : CMakeFiles/pcl2octomap.dir/all
 
 # Include target in all.
@@ -325,7 +399,7 @@ clean: CMakeFiles/pcl2octomap.dir/clean
 CMakeFiles/pcl_learning.dir/all:
 	$(MAKE) -f CMakeFiles/pcl_learning.dir/build.make CMakeFiles/pcl_learning.dir/depend
 	$(MAKE) -f CMakeFiles/pcl_learning.dir/build.make CMakeFiles/pcl_learning.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target pcl_learning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target pcl_learning"
 .PHONY : CMakeFiles/pcl_learning.dir/all
 
 # Include target in all.
@@ -362,7 +436,7 @@ clean: CMakeFiles/pcl_learning.dir/clean
 CMakeFiles/boost_format.dir/all:
 	$(MAKE) -f CMakeFiles/boost_format.dir/build.make CMakeFiles/boost_format.dir/depend
 	$(MAKE) -f CMakeFiles/boost_format.dir/build.make CMakeFiles/boost_format.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target boost_format"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target boost_format"
 .PHONY : CMakeFiles/boost_format.dir/all
 
 # Include target in all.
@@ -399,7 +473,7 @@ clean: CMakeFiles/boost_format.dir/clean
 CMakeFiles/joint_depthMap.dir/all:
 	$(MAKE) -f CMakeFiles/joint_depthMap.dir/build.make CMakeFiles/joint_depthMap.dir/depend
 	$(MAKE) -f CMakeFiles/joint_depthMap.dir/build.make CMakeFiles/joint_depthMap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target joint_depthMap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target joint_depthMap"
 .PHONY : CMakeFiles/joint_depthMap.dir/all
 
 # Include target in all.

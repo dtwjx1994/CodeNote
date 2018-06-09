@@ -38,6 +38,7 @@
 #include <laser_scan_matcher/laser_scan_matcher.h>
 #include <pcl_conversions/pcl_conversions.h>
 #include <boost/assign.hpp>
+#include <std_srvs/SetBool.h>
 #define inf INFINITY
 using namespace std;
 namespace scan_tools
@@ -97,7 +98,8 @@ LaserScanMatcher::LaserScanMatcher(ros::NodeHandle nh, ros::NodeHandle nh_privat
       "pose_with_covariance_stamped", 5);
   }
     changed_laser=nh_.advertise<sensor_msgs::LaserScan>("new_laser",10);
-
+    serviceServer=nh.advertiseService("remove_leg_ls",&LaserScanMatcher::callback,this);
+    remove_leg_ls= false;
   // *** subscribers
 
   if (use_cloud_input_)
@@ -404,6 +406,10 @@ void LaserScanMatcher::cloudCallback (const PointCloudT::ConstPtr& cloud)
 
 void LaserScanMatcher::scanCallback (const sensor_msgs::LaserScan::ConstPtr& scan_msg)
 {
+    if (remove_leg_ls== false){
+        changed_laser.publish(scan_msg);
+        return;
+    }
     //现在开始，只循环标记了。
     if(output_.x[0]==0){
 
@@ -1042,4 +1048,17 @@ void LaserScanMatcher::init_LDP_ref(LDP& ldp) {
         ldp->cluster[i]  = -1;
     }
 }
+
+    bool LaserScanMatcher::callback(std_srvs::SetBoolRequest &req,std_srvs::SetBoolResponse &response){
+        if(req.data==true){
+            remove_leg_ls= true;
+            response.success=true;
+            response.message="Laser Remove Box leg!!!";
+        }else{
+            remove_leg_ls=false;
+            response.success= false;
+            response.message="Output Raw Data!";
+        }
+        return true;
+    }
 } // namespace scan_tools

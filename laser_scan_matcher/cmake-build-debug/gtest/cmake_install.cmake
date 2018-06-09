@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/gtest/gtest/cmake_install.cmake")
+  include("/home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/gtest/gtest/cmake_install.cmake")
 
 endif()
 

@@ -1,5 +1,5 @@
-/home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lt/下载/scan_tools-indigo/laser_scan_matcher
--- Using CATKIN_DEVEL_PREFIX: /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/devel
+/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sc/文档/codenote/laser_scan_matcher
+-- Using CATKIN_DEVEL_PREFIX: /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/devel
 -- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
 -- This workspace overlays: /opt/ros/kinetic
 -- Using PYTHON_EXECUTABLE: /usr/bin/python
@@ -7,12 +7,15 @@
 -- Using empy: /usr/bin/empy
 -- Using CATKIN_ENABLE_TESTING: ON
 -- Call enable_testing()
--- Using CATKIN_TEST_RESULTS_DIR: /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/test_results
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/test_results
 -- Found gmock sources under '/usr/src/gmock': gmock will be built
 -- Found gtest sources under '/usr/src/gmock': gtests will be built
 -- Using Python nosetests: /usr/bin/nosetests-2.7
 -- catkin 0.7.11
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing: OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
 -- The imported target "vtkRenderingPythonTkWidgets" references the file
    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
 but this file does not exist.  Possible reasons include:
@@ -31,7 +34,12 @@ but this file does not exist.  Possible reasons include:
    "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
 but not all the files it references.
 
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find OpenNI2 (missing: OPENNI2_LIBRARY OPENNI2_INCLUDE_DIRS) 
 -- Could NOT find PCL_APPS (missing: PCL_APPS_LIBRARY) 
+-- Checking for module 'csm'
+--   Found csm, version 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug
+-- Build files have been written to: /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug

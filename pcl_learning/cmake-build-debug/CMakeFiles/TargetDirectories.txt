@@ -1,5 +1,7 @@
 /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/extractIndicesFromPointCloud.dir
+/home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/PlanModelSegmentation.dir
 /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/filter_passthrough.dir
 /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/octo_mapping.dir
 /home/sc/文档/codenote/pcl_learning/cmake-build-debug/CMakeFiles/filter_downsample_voxel_grid.dir

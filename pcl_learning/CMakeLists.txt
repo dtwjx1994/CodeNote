@@ -2,10 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 project(pcl_learning)
 
 set(CMAKE_CXX_STANDARD 11)
-#find_package(PCL 1.7.2 REQUIRED COMPONENTS)
+find_package(PCL 1.7.2 REQUIRED COMPONENTS)
 
 
-FIND_PACKAGE( PCL REQUIRED COMPONENTS common io visualization filters )
+#FIND_PACKAGE( PCL REQUIRED COMPONENTS common io visualization filters )
 list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4") # use this in Ubuntu 16.04
 # octomap
 find_package(octomap REQUIRED)
@@ -41,3 +41,7 @@ target_link_libraries(registration_ICP ${PCL_LIBRARIES})
 add_executable(boost_format boost_format.cpp)
 add_executable(joint_depthMap joint_depthMap.cpp)
 target_link_libraries(joint_depthMap ${PCL_LIBRARIES} ${OpenCV_LIBS})
+add_executable(PlanModelSegmentation PlanModelSegmentation.cpp)
+target_link_libraries(PlanModelSegmentation ${PCL_LIBRARIES})
+add_executable(extractIndicesFromPointCloud extractIndicesFromPointCloud.cpp)
+target_link_libraries(extractIndicesFromPointCloud ${PCL_LIBRARIES})

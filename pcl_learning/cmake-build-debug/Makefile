@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named extractIndicesFromPointCloud
+
+# Build rule for target.
+extractIndicesFromPointCloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 extractIndicesFromPointCloud
+.PHONY : extractIndicesFromPointCloud
+
+# fast build rule for target.
+extractIndicesFromPointCloud/fast:
+	$(MAKE) -f CMakeFiles/extractIndicesFromPointCloud.dir/build.make CMakeFiles/extractIndicesFromPointCloud.dir/build
+.PHONY : extractIndicesFromPointCloud/fast
+
+#=============================================================================
+# Target rules for targets named PlanModelSegmentation
+
+# Build rule for target.
+PlanModelSegmentation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PlanModelSegmentation
+.PHONY : PlanModelSegmentation
+
+# fast build rule for target.
+PlanModelSegmentation/fast:
+	$(MAKE) -f CMakeFiles/PlanModelSegmentation.dir/build.make CMakeFiles/PlanModelSegmentation.dir/build
+.PHONY : PlanModelSegmentation/fast
+
+#=============================================================================
 # Target rules for targets named filter_passthrough
 
 # Build rule for target.
@@ -240,6 +266,33 @@ joint_depthMap/fast:
 	$(MAKE) -f CMakeFiles/joint_depthMap.dir/build.make CMakeFiles/joint_depthMap.dir/build
 .PHONY : joint_depthMap/fast
 
+PlanModelSegmentation.o: PlanModelSegmentation.cpp.o
+
+.PHONY : PlanModelSegmentation.o
+
+# target to build an object file
+PlanModelSegmentation.cpp.o:
+	$(MAKE) -f CMakeFiles/PlanModelSegmentation.dir/build.make CMakeFiles/PlanModelSegmentation.dir/PlanModelSegmentation.cpp.o
+.PHONY : PlanModelSegmentation.cpp.o
+
+PlanModelSegmentation.i: PlanModelSegmentation.cpp.i
+
+.PHONY : PlanModelSegmentation.i
+
+# target to preprocess a source file
+PlanModelSegmentation.cpp.i:
+	$(MAKE) -f CMakeFiles/PlanModelSegmentation.dir/build.make CMakeFiles/PlanModelSegmentation.dir/PlanModelSegmentation.cpp.i
+.PHONY : PlanModelSegmentation.cpp.i
+
+PlanModelSegmentation.s: PlanModelSegmentation.cpp.s
+
+.PHONY : PlanModelSegmentation.s
+
+# target to generate assembly for a file
+PlanModelSegmentation.cpp.s:
+	$(MAKE) -f CMakeFiles/PlanModelSegmentation.dir/build.make CMakeFiles/PlanModelSegmentation.dir/PlanModelSegmentation.cpp.s
+.PHONY : PlanModelSegmentation.cpp.s
+
 boost_format.o: boost_format.cpp.o
 
 .PHONY : boost_format.o
@@ -293,6 +346,33 @@ cloud_viewer.s: cloud_viewer.cpp.s
 cloud_viewer.cpp.s:
 	$(MAKE) -f CMakeFiles/cloud_viewer.dir/build.make CMakeFiles/cloud_viewer.dir/cloud_viewer.cpp.s
 .PHONY : cloud_viewer.cpp.s
+
+extractIndicesFromPointCloud.o: extractIndicesFromPointCloud.cpp.o
+
+.PHONY : extractIndicesFromPointCloud.o
+
+# target to build an object file
+extractIndicesFromPointCloud.cpp.o:
+	$(MAKE) -f CMakeFiles/extractIndicesFromPointCloud.dir/build.make CMakeFiles/extractIndicesFromPointCloud.dir/extractIndicesFromPointCloud.cpp.o
+.PHONY : extractIndicesFromPointCloud.cpp.o
+
+extractIndicesFromPointCloud.i: extractIndicesFromPointCloud.cpp.i
+
+.PHONY : extractIndicesFromPointCloud.i
+
+# target to preprocess a source file
+extractIndicesFromPointCloud.cpp.i:
+	$(MAKE) -f CMakeFiles/extractIndicesFromPointCloud.dir/build.make CMakeFiles/extractIndicesFromPointCloud.dir/extractIndicesFromPointCloud.cpp.i
+.PHONY : extractIndicesFromPointCloud.cpp.i
+
+extractIndicesFromPointCloud.s: extractIndicesFromPointCloud.cpp.s
+
+.PHONY : extractIndicesFromPointCloud.s
+
+# target to generate assembly for a file
+extractIndicesFromPointCloud.cpp.s:
+	$(MAKE) -f CMakeFiles/extractIndicesFromPointCloud.dir/build.make CMakeFiles/extractIndicesFromPointCloud.dir/extractIndicesFromPointCloud.cpp.s
+.PHONY : extractIndicesFromPointCloud.cpp.s
 
 filter_downsample_voxel_grid.o: filter_downsample_voxel_grid.cpp.o
 
@@ -518,6 +598,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... extractIndicesFromPointCloud"
+	@echo "... PlanModelSegmentation"
 	@echo "... filter_passthrough"
 	@echo "... octo_mapping"
 	@echo "... filter_downsample_voxel_grid"
@@ -528,12 +610,18 @@ help:
 	@echo "... pcl_learning"
 	@echo "... boost_format"
 	@echo "... joint_depthMap"
+	@echo "... PlanModelSegmentation.o"
+	@echo "... PlanModelSegmentation.i"
+	@echo "... PlanModelSegmentation.s"
 	@echo "... boost_format.o"
 	@echo "... boost_format.i"
 	@echo "... boost_format.s"
 	@echo "... cloud_viewer.o"
 	@echo "... cloud_viewer.i"
 	@echo "... cloud_viewer.s"
+	@echo "... extractIndicesFromPointCloud.o"
+	@echo "... extractIndicesFromPointCloud.i"
+	@echo "... extractIndicesFromPointCloud.s"
 	@echo "... filter_downsample_voxel_grid.o"
 	@echo "... filter_downsample_voxel_grid.i"
 	@echo "... filter_downsample_voxel_grid.s"

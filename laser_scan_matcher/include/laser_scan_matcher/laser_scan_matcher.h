@@ -54,7 +54,7 @@
 #include <pcl/point_cloud.h>
 #include <pcl/filters/voxel_grid.h>
 #include <pcl_ros/point_cloud.h>
-
+#include <std_srvs/SetBool.h>
 #include <csm/csm_all.h>  // csm defines min and max, but Eigen complains
 #undef min
 #undef max
@@ -98,6 +98,7 @@ class LaserScanMatcher
     ros::Publisher  pose_with_covariance_publisher_;
     ros::Publisher  pose_with_covariance_stamped_publisher_;
     ros::Publisher  changed_laser;
+    ros::ServiceServer serviceServer;
     // **** parameters
 
     std::string base_frame_;
@@ -138,6 +139,8 @@ class LaserScanMatcher
     bool received_imu_;
     bool received_odom_;
     bool received_vel_;
+
+    bool remove_leg_ls;
 
     tf::Transform f2b_;    // fixed-to-base tf (pose of base frame in fixed frame)
     tf::Transform f2b_kf_; // pose of the last keyframe scan in fixed frame
@@ -186,6 +189,7 @@ class LaserScanMatcher
                        double& pr_ch_a, double dt);
 
     void createTfFromXYTheta(double x, double y, double theta, tf::Transform& t);
+    bool callback(std_srvs::SetBoolRequest &req,std_srvs::SetBoolResponse &response);
 };
 
 } // namespace scan_tools

@@ -37,6 +37,262 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="extractIndicesFromPointCloud">
+				<Option output="/home/sc/文档/codenote/pcl_learning/cmake-build-debug/extractIndicesFromPointCloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/pcl_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_OPENNI2"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DvtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"/>
+					<Add option="-DvtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"/>
+					<Add option="-DvtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"/>
+					<Add option="-DvtkIOImage_AUTOINIT=1(vtkIOMPIImage)"/>
+					<Add option="-DvtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)"/>
+					<Add option="-DvtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"/>
+					<Add option="-DvtkRenderingLIC_AUTOINIT=1(vtkRenderingParallelLIC)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"/>
+					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
+					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
+					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include"/>
+					<Add directory="/usr/lib/openmpi/include"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/hdf5/openmpi"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/usr/include/tcl"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/usr/include/pcl-1.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 extractIndicesFromPointCloud"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extractIndicesFromPointCloud/fast">
+				<Option output="/home/sc/文档/codenote/pcl_learning/cmake-build-debug/extractIndicesFromPointCloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/pcl_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_OPENNI2"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DvtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"/>
+					<Add option="-DvtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"/>
+					<Add option="-DvtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"/>
+					<Add option="-DvtkIOImage_AUTOINIT=1(vtkIOMPIImage)"/>
+					<Add option="-DvtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)"/>
+					<Add option="-DvtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"/>
+					<Add option="-DvtkRenderingLIC_AUTOINIT=1(vtkRenderingParallelLIC)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"/>
+					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
+					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
+					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include"/>
+					<Add directory="/usr/lib/openmpi/include"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/hdf5/openmpi"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/usr/include/tcl"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/usr/include/pcl-1.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 extractIndicesFromPointCloud/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlanModelSegmentation">
+				<Option output="/home/sc/文档/codenote/pcl_learning/cmake-build-debug/PlanModelSegmentation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/pcl_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_OPENNI2"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DvtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"/>
+					<Add option="-DvtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"/>
+					<Add option="-DvtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"/>
+					<Add option="-DvtkIOImage_AUTOINIT=1(vtkIOMPIImage)"/>
+					<Add option="-DvtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)"/>
+					<Add option="-DvtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"/>
+					<Add option="-DvtkRenderingLIC_AUTOINIT=1(vtkRenderingParallelLIC)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"/>
+					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
+					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
+					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include"/>
+					<Add directory="/usr/lib/openmpi/include"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/hdf5/openmpi"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/usr/include/tcl"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/usr/include/pcl-1.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 PlanModelSegmentation"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PlanModelSegmentation/fast">
+				<Option output="/home/sc/文档/codenote/pcl_learning/cmake-build-debug/PlanModelSegmentation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/pcl_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDISABLE_OPENNI2"/>
+					<Add option="-DDISABLE_PCAP"/>
+					<Add option="-DDISABLE_PNG"/>
+					<Add option="-DvtkFiltersFlowPaths_AUTOINIT=1(vtkFiltersParallelFlowPaths)"/>
+					<Add option="-DvtkIOExodus_AUTOINIT=1(vtkIOParallelExodus)"/>
+					<Add option="-DvtkIOGeometry_AUTOINIT=1(vtkIOMPIParallel)"/>
+					<Add option="-DvtkIOImage_AUTOINIT=1(vtkIOMPIImage)"/>
+					<Add option="-DvtkIOSQL_AUTOINIT=2(vtkIOMySQL,vtkIOPostgreSQL)"/>
+					<Add option="-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)"/>
+					<Add option="-DvtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)"/>
+					<Add option="-DvtkRenderingFreeType_AUTOINIT=2(vtkRenderingFreeTypeFontConfig,vtkRenderingMatplotlib)"/>
+					<Add option="-DvtkRenderingLIC_AUTOINIT=1(vtkRenderingParallelLIC)"/>
+					<Add option="-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)"/>
+					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
+					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
+					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/usr/include/vtk-6.2"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/jsoncpp"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include"/>
+					<Add directory="/usr/lib/openmpi/include"/>
+					<Add directory="/usr/lib/openmpi/include/openmpi"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include/hdf5/openmpi"/>
+					<Add directory="/usr/include/libxml2"/>
+					<Add directory="/usr/include/tcl"/>
+					<Add directory="/opt/ros/kinetic/include"/>
+					<Add directory="/usr/include/pcl-1.7"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/ni"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 PlanModelSegmentation/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/pcl_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="filter_passthrough">
 				<Option output="/home/sc/文档/codenote/pcl_learning/cmake-build-debug/filter_passthrough" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/sc/文档/codenote/pcl_learning/cmake-build-debug"/>
@@ -60,6 +316,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -123,6 +380,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -186,6 +444,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -251,6 +510,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -316,6 +576,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -379,6 +640,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -442,6 +704,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -505,6 +768,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -568,6 +832,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -631,6 +896,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -694,6 +960,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -757,6 +1024,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -820,6 +1088,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -883,6 +1152,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -946,6 +1216,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -1009,6 +1280,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -1072,6 +1344,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add directory="/usr/include/vtk-6.2"/>
 					<Add directory="/usr/include/freetype2"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
@@ -1127,6 +1400,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add directory="/usr/include/vtk-6.2"/>
 					<Add directory="/usr/include/freetype2"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
@@ -1182,6 +1456,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -1247,6 +1522,7 @@
 					<Add option="-DEIGEN_USE_NEW_STDVECTOR"/>
 					<Add option="-DEIGEN_YES_I_KNOW_SPARSE_MODULE_IS_NOT_STABLE_YET"/>
 					<Add option="-DFLANN_STATIC"/>
+					<Add option="-Dqh_QHpointer"/>
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
@@ -1290,11 +1566,17 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sc/文档/codenote/pcl_learning/PlanModelSegmentation.cpp">
+			<Option target="PlanModelSegmentation"/>
+		</Unit>
 		<Unit filename="/home/sc/文档/codenote/pcl_learning/boost_format.cpp">
 			<Option target="boost_format"/>
 		</Unit>
 		<Unit filename="/home/sc/文档/codenote/pcl_learning/cloud_viewer.cpp">
 			<Option target="cloud_viewer"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/pcl_learning/extractIndicesFromPointCloud.cpp">
+			<Option target="extractIndicesFromPointCloud"/>
 		</Unit>
 		<Unit filename="/home/sc/文档/codenote/pcl_learning/filter_downsample_voxel_grid.cpp">
 			<Option target="filter_downsample_voxel_grid"/>

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/lt/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
+RM = /home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lt/下载/scan_tools-indigo/laser_scan_matcher
+CMAKE_SOURCE_DIR = /home/sc/文档/codenote/laser_scan_matcher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lt/下载/scan_tools-indigo/laser_scan_matcher /home/lt/下载/scan_tools-indigo/laser_scan_matcher /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug /home/lt/下载/scan_tools-indigo/laser_scan_matcher/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sc/文档/codenote/laser_scan_matcher /home/sc/文档/codenote/laser_scan_matcher /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug /home/sc/文档/codenote/laser_scan_matcher/cmake-build-debug/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

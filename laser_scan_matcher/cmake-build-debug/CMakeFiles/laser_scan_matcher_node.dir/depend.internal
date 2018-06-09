@@ -3,7 +3,7 @@
 
 CMakeFiles/laser_scan_matcher_node.dir/src/laser_scan_matcher_node.cpp.o
  ../include/laser_scan_matcher/laser_scan_matcher.h
- /home/lt/下载/scan_tools-indigo/laser_scan_matcher/src/laser_scan_matcher_node.cpp
+ /home/sc/文档/codenote/laser_scan_matcher/src/laser_scan_matcher_node.cpp
  /opt/ros/kinetic/include/boost_161_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h
@@ -124,6 +124,9 @@ CMakeFiles/laser_scan_matcher_node.dir/src/laser_scan_matcher_node.cpp.o
  /opt/ros/kinetic/include/sensor_msgs/PointField.h
  /opt/ros/kinetic/include/std_msgs/Empty.h
  /opt/ros/kinetic/include/std_msgs/Header.h
+ /opt/ros/kinetic/include/std_srvs/SetBool.h
+ /opt/ros/kinetic/include/std_srvs/SetBoolRequest.h
+ /opt/ros/kinetic/include/std_srvs/SetBoolResponse.h
  /opt/ros/kinetic/include/tf/FrameGraph.h
  /opt/ros/kinetic/include/tf/FrameGraphRequest.h
  /opt/ros/kinetic/include/tf/FrameGraphResponse.h
