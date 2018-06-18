@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gtsam_learning"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTSAM\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isam">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/isam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 isam"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isam/fast">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/isam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 isam/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtsam_learning">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/gtsam_learning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtsam_learning"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtsam_learning/fast">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/gtsam_learning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtsam_learning/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isam_laser">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/isam_laser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 isam_laser"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="isam_laser/fast">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/isam_laser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 isam_laser/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gPS_localization">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/gPS_localization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 gPS_localization"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gPS_localization/fast">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/gPS_localization" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 gPS_localization/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose2slam">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/pose2slam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose2slam"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose2slam/fast">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/pose2slam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose2slam/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readWriteG2O">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/readWriteG2O" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 readWriteG2O"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="readWriteG2O/fast">
+				<Option output="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/readWriteG2O" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sc/文档/codenote/gtsam_learning/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/lib/cmake/GTSAM/../../../include"/>
+					<Add directory="/usr/local/include/gtsam/3rdparty/Eigen"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 readWriteG2O/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sc/文档/codenote/gtsam_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/GPS_localization.cpp">
+			<Option target="gPS_localization"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/isam.cpp">
+			<Option target="isam"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/isam_laser.cpp">
+			<Option target="isam_laser"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/main.cpp">
+			<Option target="gtsam_learning"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/pose2slam.cpp">
+			<Option target="pose2slam"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/readWriteG2O.cpp">
+			<Option target="readWriteG2O"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/../../../../../usr/local/lib/cmake/GTSAM/GTSAM-exports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTSAM\"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/../../../../../usr/local/lib/cmake/GTSAM/GTSAM-exports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTSAM\"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/../../../../../usr/local/lib/cmake/GTSAM/GTSAMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTSAM\"/>
+		</Unit>
+		<Unit filename="/home/sc/文档/codenote/gtsam_learning/../../../../../usr/local/lib/cmake/GTSAM/gtsam_extra.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTSAM\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

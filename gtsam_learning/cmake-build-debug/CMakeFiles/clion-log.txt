@@ -1,0 +1,13 @@
+/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sc/文档/codenote/gtsam_learning
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   filesystem
+--   date_time
+--   system
+--   chrono
+--   atomic
+-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include;/usr/include;/usr/local/include/gtsam/3rdparty/Eigen/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sc/文档/codenote/gtsam_learning/cmake-build-debug

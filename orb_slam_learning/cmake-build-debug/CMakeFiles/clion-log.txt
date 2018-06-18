@@ -1,0 +1,4 @@
+/home/sc/Software/clion-2018.1.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sc/文档/codenote/orb_slam_learning
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sc/文档/codenote/orb_slam_learning/cmake-build-debug
